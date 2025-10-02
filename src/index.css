@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./assets/Fonts/FiraSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./assets/Fonts/FiraSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./assets/Fonts/FiraSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./assets/Fonts/FiraSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  box-sizing: border-box;
+  font-family: 'Fira Sans', 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+.text_shadow:hover {
+  text-shadow: 0 8px 1.5px rgba(146, 51, 234, 0.659);
+  transition: all 0.2s ease-in-out;
+}
+
+@keyframes scrollTech {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes border-animation {
+   to {
+    background-position: 200% 0%;
+   }
+}
+
+.animate-border {
+  background-size: 200% 200%;
+  animation: border-animation 3s linear infinite;
+}
