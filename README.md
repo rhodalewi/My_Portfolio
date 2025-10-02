@@ -23,5 +23,5 @@ It’s a space where I share a little about myself, showcase my projects, and hi
   
 ## Contact
 Frontend Mentor: https://www.frontendmentor.io/profile/rhodalewi
-LinkedIn: [yourlinkedin](https://www.linkedin.com/in/rhodalewi/)
+LinkedIn: https://www.linkedin.com/in/rhodalewi/
 Email: rhodalewi@gmail.com
