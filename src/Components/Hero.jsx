@@ -25,7 +25,7 @@ const Hero = ({skillSet}) => {
 
           <div className="inline-flex flex-col sm:flex-row justify-center md:items-center gap-5 md:gap-7 font-[Poppins] mt-4">
             <a
-              href="/src/assets/Alewi Rhoda Oyinkansola Resume.pdf" download
+              href="/Alewi-Rhoda-Frontend-Developer-Resume.pdf" download
               className="overflow-hidden group rounded-lg text-sm md:text-base font-medium flex items-center justify-center gap-2 p-2 md:py-2.5 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-blue-500 hover:to-purple-500 transition-all duration-700 ease-linear w-36 md:w-46 active:bg-none active:border active:border-purple-500"
             >
               <FiDownload className="hidden translate-x-[-50px] group-hover:block group-hover:translate-x-0 transition-all duration-700 ease-in-out" />
