@@ -8,7 +8,7 @@ import { BiSolidRightArrowAlt } from "react-icons/bi";
 
 const Hero = ({skillSet}) => {
   return (
-    <div>
+    <>
       <Header />
 
       <section id='home' className='relative p-7 h-full bg-[url(/Mobile_Hero_Background.png)] bg-cover bg-center bg-no-repeat bg-blend-multiply lg:h-screen md:bg-[url(/Desktop-Hero-Background.png)] flex flex-col items-center text-center md:text-start pt-28 lg:pt-40'>
@@ -19,9 +19,9 @@ const Hero = ({skillSet}) => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{duration:0.8, ease:'easeInOut'}}
         >
-          <p className='text-gray-200'>Hi, my name is</p>
-          <h1 className='text-3xl md:text-6xl bg-gradient-to-r from-purple-500  to-blue-500 bg-clip-text text-transparent font-bold'>Rhoda Alewi.</h1>
-          <p className='text-gray-200 max-w-lg mt-6 text-xs md:text-base'>I’m a frontend developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building responsive web applications.</p>
+          <p className='text-gray-200 text-sm md:text-base'>Hi, my name is</p>
+          <h1 className='text-4xl md:text-6xl bg-gradient-to-r from-purple-500  to-blue-500 bg-clip-text text-transparent font-bold'>Rhoda Alewi.</h1>
+          <p className='text-gray-300 max-w-lg mt-6 text-xs md:text-base'>I’m a frontend developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building responsive web applications.</p>
 
           <div className="inline-flex flex-col sm:flex-row justify-center md:items-center gap-5 md:gap-7 font-[Poppins] mt-4">
             <a
@@ -67,7 +67,7 @@ const Hero = ({skillSet}) => {
           <FaAnglesDown className="text-xl animate-bounce text-gray-100 dark:hover:text-blue-500" />
         </Link>
       </section>
-    </div>
+    </>
     
   )
 }

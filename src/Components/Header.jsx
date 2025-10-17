@@ -79,7 +79,7 @@ const Header = () => {
                     className={`absolute top-16 inset-0 transition-opacity duration-700 ease-in-out ${isOpen ? "opacity-100 pointer-events-auto bg-black/50"
                     : "opacity-0 pointer-events-none"}`}
                 >
-                    <aside className={`fixed top-15 right-0 w-64 sm:w-80 h-full bg-[#0f172a] px-8 py-10 shadow-lg transform transition-transform duration-700 ease-in-out ${isOpen ? "translate-x-0 pointer-events-auto" : "translate-x-full pointer-events-none"
+                    <aside className={`absolute right-0 w-64 sm:w-80 h-full bg-[#0f172a] px-8 py-10 shadow-lg transform transition-transform duration-700 ease-in-out ${isOpen ? "translate-x-0 pointer-events-auto" : "translate-x-full pointer-events-none"
                     }`}>
                         <nav className="flex flex-col space-y-4 text-lg">
                             {navLinks.map((links) => (
