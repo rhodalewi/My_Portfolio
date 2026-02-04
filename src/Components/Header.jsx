@@ -38,9 +38,9 @@ const Header = () => {
     return (
         <header className={`flex items-center justify-between w-full px-7 py-3.5 pt-4 md:pt-10 lg:px-20 fixed top-0 z-20 transition-all duration-700 shadow-md shadow-gray-700/20 md:shadow-none ${
             isOpen
-                ? 'bg-[#0f172a] transition-colors duration-700 ease-in-out lg:bg-transparent'
+                ? 'bg-[#121212] transition-colors duration-700 ease-in-out lg:bg-transparent'
                 : isScrolled
-                    ? 'bg-background/80 backdrop-blur-md shadow-md shadow-gray-700/20 '
+                    ? 'bg-background/50 backdrop-blur-md shadow-md shadow-gray-700/20 '
                     : 'bg-transparent'
         }`}>
             <h1 className="text-base md:text-xl lg:text-2xl font-bold ">Rhoda.Alewi</h1>
@@ -79,9 +79,9 @@ const Header = () => {
                     className={`absolute top-16 inset-0 transition-opacity duration-700 ease-in-out ${isOpen ? "opacity-100 pointer-events-auto bg-black/50"
                     : "opacity-0 pointer-events-none"}`}
                 >
-                    <aside className={`absolute right-0 w-64 sm:w-80 h-full bg-[#0f172a] px-8 py-10 shadow-lg transform transition-transform duration-700 ease-in-out ${isOpen ? "translate-x-0 pointer-events-auto" : "translate-x-full pointer-events-none"
+                    <aside className={`absolute right-0 w-64 sm:w-80 h-full bg-[#121212] px-8 py-10 shadow-lg transform transition-transform duration-700 ease-in-out ${isOpen ? "translate-x-0 pointer-events-auto" : "translate-x-full pointer-events-none"
                     }`}>
-                        <nav className="flex flex-col space-y-4 text-lg">
+                        <nav className="flex flex-col gap-4 text-lg">
                             {navLinks.map((links) => (
                             <Link
                                 key={links.id}

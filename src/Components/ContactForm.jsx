@@ -28,7 +28,7 @@ const ContactForm = () => {
 
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="bg-[#0f172a] p-8 rounded-2xl space-y-6 shadow-xl w-full border border-purple-500">
+    <form onSubmit={handleSubmit(onSubmit)} className="bg-[#121212] p-8 rounded-2xl space-y-6 shadow-xl w-full border border-purple-500">
       {status && <Motion.p
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}

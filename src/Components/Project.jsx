@@ -105,8 +105,8 @@ const ImageTransition = ({ image }) => {
   
   return (
     <section id='project' className='px-7 py-12 md:py-24 border-t border-gray-800 flex flex-col justify-center items-center gap-8 md:gap-14 w-full relative'>
-      <span className='bg-blue-500/15 w-70 h-70 md:w-120 md:h-120 rounded-full absolute bottom-4 blur-[200px] '></span>
-      <span className='bg-purple-500/15 w-70 h-70 md:w-120 md:h-120 rounded-full absolute bottom-4 blur-[200px] '></span>
+      <span className='bg-blue-300/15 w-70 h-70 md:w-120 md:h-120 rounded-full absolute bottom-6 blur-[350px] '></span>
+      <span className='bg-purple-300/15 w-70 h-70 md:w-120 md:h-120 rounded-full absolute bottom-6 blur-[350px] '></span>
       <div className='space-y-10 md:space-y-12 z-10'>
       {/* HEADING */}
         <Motion.div  
@@ -128,7 +128,7 @@ const ImageTransition = ({ image }) => {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.3, ease: 'easeOut'}}
-              className='group bg-[#09101A] border border-purple-500 rounded-2xl overflow-hidden transition-all duration-700 shadow-lg hover:shadow-purple-500/30 ease-in-out'
+              className='group bg-[#121212] border border-purple-500 rounded-2xl overflow-hidden transition-all duration-700 shadow-xl hover:shadow-purple-100/10 ease-in-out'
             >
               {project.isMultiple ? (
                 <ImageTransition image={project.image} />

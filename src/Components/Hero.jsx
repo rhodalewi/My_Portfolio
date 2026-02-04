@@ -25,7 +25,8 @@ const Hero = ({skillSet}) => {
 
           <div className="inline-flex flex-col sm:flex-row justify-center md:items-center gap-5 md:gap-7 font-[Poppins] mt-4">
             <a
-              href="/Alewi-Rhoda-Frontend-Developer-Resume.pdf" download
+              href="/Alewi-Rhoda-Frontend-Developer-Resume.pdf"
+              download
               className="overflow-hidden group rounded-lg text-sm md:text-base font-medium flex items-center justify-center gap-2 p-2 md:py-2.5 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-blue-500 hover:to-purple-500 transition-all duration-700 ease-linear w-36 md:w-46 active:bg-none active:border active:border-purple-500"
             >
               <FiDownload className="hidden translate-x-[-50px] group-hover:block group-hover:translate-x-0 transition-all duration-700 ease-in-out" />
@@ -48,7 +49,7 @@ const Hero = ({skillSet}) => {
             {[...skillSet, ...skillSet].map((skill, index) => (
               <div
                 key={index}
-                className="flex items-center justify-center gap-2 rounded-full bg-[#0f172a]/80 backdrop-blur-md px-6 py-1.5 shadow-lg"
+                className="flex items-center justify-center gap-2 rounded-full bg-[#0f172a]/50 backdrop-blur-md px-6 py-1.5 shadow-lg"
               >
                 <img src={skill.icon} alt={skill.name} className="object-cover" />
                 <p className="text-xs/5 md:text-sm/5 text-slate-200"> {skill.name} </p>
