@@ -74,8 +74,8 @@ const Contact = ({ socialIcons }) => {
                 
             </div>
         
-            <span className='bg-blue-300/15 w-70 h-70  md:w-100 md:h-100 rounded-full absolute left-0 bottom-0 blur-[300px]'></span>
-            <span className='bg-purple-300/15 w-70 h-70 md:w-100 md:h-100 rounded-full absolute left-0 bottom-0 blur-[300px]'></span>
+           {/*  <span className='bg-blue-300/15 w-70 h-70  md:w-100 md:h-100 rounded-full absolute left-0 bottom-0 blur-[300px]'></span>
+            <span className='bg-purple-300/15 w-70 h-70 md:w-100 md:h-100 rounded-full absolute left-0 bottom-0 blur-[300px]'></span> */}
         </section>
         
         <Footer />

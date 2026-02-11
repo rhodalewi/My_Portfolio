@@ -105,8 +105,8 @@ const ImageTransition = ({ image }) => {
   
   return (
     <section id='project' className='px-7 py-12 md:py-24 border-t border-gray-800 flex flex-col justify-center items-center gap-8 md:gap-14 w-full relative'>
-      <span className='bg-blue-300/15 w-70 h-70 md:w-120 md:h-120 rounded-full absolute bottom-6 blur-[350px] '></span>
-      <span className='bg-purple-300/15 w-70 h-70 md:w-120 md:h-120 rounded-full absolute bottom-6 blur-[350px] '></span>
+     {/*  <span className='bg-blue-300/15 w-70 h-70 md:w-120 md:h-120 rounded-full absolute bottom-6 blur-[350px] '></span>
+      <span className='bg-purple-300/15 w-70 h-70 md:w-120 md:h-120 rounded-full absolute bottom-6 blur-[350px] '></span> */}
       <div className='space-y-10 md:space-y-12 z-10'>
       {/* HEADING */}
         <Motion.div  
