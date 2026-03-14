@@ -7,6 +7,7 @@ import Contact from "./Components/Contact";
 import { SiFrontendmentor, SiGmail  } from "react-icons/si";
 import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedinIn, FaWhatsapp   } from 'react-icons/fa6';
+import ScrollButton from "./Components/ScrollButton";
 
 
 
@@ -31,13 +32,14 @@ function App() {
   ];
 
   return (
-    <>
+    <div className=" overflow-hidden relative">
+      <ScrollButton />
       <Hero skillSet={skillSet} />
       <About socialIcons={socialIcons} />
       <Project />
       <Skills skillSet={skillSet} />
       <Contact socialIcons={socialIcons} />
-    </>
+    </div>
   )
 }
 
